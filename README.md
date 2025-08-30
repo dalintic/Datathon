@@ -32,7 +32,7 @@ Para ello:
 │ └─ 📄 CantidadPedida.xlsx
 ├─ 🛠️ mlartifacts/ # Artefactos de MLflow
 ├─ 📊 mlruns/ # Historial de ejecuciones MLflow
-├─ 🤖 product_models/ # Modelos individuales por producto y artefactos del ensemble
+├─ 🤖 product_models/ # Modelos individuales y artefactos del ensemble
 │ ├─ 📄 model_{PRODUCT_ID}.pkl
 │ ├─ 📄 manifest.json
 │ ├─ 📈 pred_vs_actual_{PRODUCT_ID}.png
