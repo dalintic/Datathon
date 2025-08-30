@@ -22,23 +22,25 @@ Para ello:
 - **Base de datos (sandbox)** → Almacenamiento de resultados finales  
 
 ---
+
 ## 📂 Estructura del proyecto
-📦 datathon
-┣ 📁 archivos/ # Datos fuente (Excel)
-┃ ┣ 📄 ArticulosPanaderia.xlsx
-┃ ┣ 📄 Calendario.xlsx
-┃ ┗ 📄 CantidadPedida.xlsx
-┣ 📁 mlartifacts/ # Artefactos de MLflow
-┣ 📁 mlruns/ # Historial de ejecuciones MLflow
-┣ 📁 product_models/ # Modelos individuales por producto y artefactos del ensemble
-┃ ┣ 📄 model_{PRODUCT_ID}.pkl
-┃ ┣ 📄 manifest.json
-┃ ┣ 📄 pred_vs_actual_{PRODUCT_ID}.png
-┃ ┗ 📄 pred_vs_actual_timeline_{PRODUCT_ID}.png
-┣ 📄 Datathon_EDA.ipynb # Notebook de análisis exploratorio
-┣ 📄 Datathon.ipynb # Notebook principal (preprocesamiento, entrenamiento y ensemble)
-┣ 📄 README.md
-┗ 📄 requirements.txt
+📦 datathon/
+├─ 📁 archivos/ # Datos fuente (Excel)
+│ ├─ 📄 ArticulosPanaderia.xlsx
+│ ├─ 📄 Calendario.xlsx
+│ └─ 📄 CantidadPedida.xlsx
+├─ 🛠️ mlartifacts/ # Artefactos de MLflow
+├─ 📊 mlruns/ # Historial de ejecuciones MLflow
+├─ 🤖 product_models/ # Modelos individuales por producto y artefactos del ensemble
+│ ├─ 📄 model_{PRODUCT_ID}.pkl
+│ ├─ 📄 manifest.json
+│ ├─ 📈 pred_vs_actual_{PRODUCT_ID}.png
+│ └─ 📈 pred_vs_actual_timeline_{PRODUCT_ID}.png
+├─ 📓 Datathon_EDA.ipynb # Notebook de análisis exploratorio
+├─ 📓 Datathon.ipynb # Notebook principal (preprocesamiento, entrenamiento y ensemble)
+├─ 📝 README.md
+└─ 📦 requirements.txt
+
 ---
 ## 📊 Flujo del proyecto
 
