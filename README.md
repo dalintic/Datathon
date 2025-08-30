@@ -24,6 +24,7 @@ Para ello:
 ---
 
 ## 📂 Estructura del proyecto
+```
 📦 datathon/
 ├─ 📁 archivos/ # Datos fuente (Excel)
 │ ├─ 📄 ArticulosPanaderia.xlsx
@@ -40,7 +41,7 @@ Para ello:
 ├─ 📓 Datathon.ipynb # Notebook principal (preprocesamiento, entrenamiento y ensemble)
 ├─ 📝 README.md
 └─ 📦 requirements.txt
-
+```
 ---
 ## 📊 Flujo del proyecto
 
